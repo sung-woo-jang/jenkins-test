@@ -1,7 +1,7 @@
 module.exports = {
   apps: [
     {
-      name: 'jenkins_test',
+      name: 'jenkins-test',
       script: 'npm',
       args: 'start',
     },
