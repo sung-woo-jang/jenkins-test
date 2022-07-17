@@ -1,6 +1,6 @@
 #!/bin/sh
 ssh ubuntu@ec2-52-79-242-108.ap-northeast-2.compute.amazonaws.com <<EOF
-    cd ~/jenkins_test		
+    cd /home/ubuntu/jenkins_test
     git pull origin master
     curl -o-   https://raw.githubusercontent.com/creationix/nvm/v0.33.8/install.sh    | bash
     . ~/.nvm/nvm.sh 
